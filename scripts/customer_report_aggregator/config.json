@@ -1,0 +1,15 @@
+{
+    "reportURL": "https://apis.druva.com/platform/reporting/v1/reports/dgRollbackActions",
+    "clientID": "<MSPClientID>",
+    "clientSecret": "<MSPClientSecret>",
+    "reportFilters": {
+        "pageSize": 100,
+        "filterBy": [
+            {
+                "fieldName": "lastUpdatedTime",
+                "value": "2023-11-14T00:00:00Z",
+                "operator": "GTE"
+            }
+        ]
+    }
+}
